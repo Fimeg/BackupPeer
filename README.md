@@ -197,6 +197,8 @@ npm install -g backup-peer-client-0.1.0.tgz
 
 This project focuses on core peer-to-peer backup functionality with strong cryptographic foundations.
 
+<a href="https://www.buymeacoffee.com/caseytunturi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height="60px" width="200px"></a>
+
 **Priority areas for contribution:**
 - Security audits and cryptographic review
 - Connection resilience and network reliability
