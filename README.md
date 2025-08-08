@@ -2,7 +2,7 @@
 
 BackupPeer is a privacy-focused peer-to-peer encrypted backup system where you exchange backup storage directly with other users. Unlike rsync or Borg Backup which require central servers or cloud storage, BackupPeer creates mutual backup relationships - you store their files, they store yours, with zero-knowledge architecture ensuring only you can decrypt your data.
 
-> **⚠️ EXPERIMENTAL VERSION**: This is an experimental build with recent improvements to file transfer reliability and connection management. Features may change and stability is not yet guaranteed for production use.
+> **⚠️ EXPERIMENTAL VERSION**: This is an experimental build with recent improvements to file transfer reliability and connection management. Features may change and stability is not yet guaranteed for production use. Please note; during development the community singalling server will be reset many times... setting your own is essential for now. 
 
 ## Features
 
