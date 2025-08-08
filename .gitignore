@@ -1,0 +1,161 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# node-wiser dependency directories
+.node_wiser
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# BackupPeer specific
+*.db
+*.sqlite
+*.sqlite3
+.backup-peer/
+keys/
+received/
+temp/
+logs/
+*.log
+backuppeer.log
+debug.log
+error.log
+
+# Development and planning docs (keep these out of main repo)
+*_CONSIDERATIONS.md
+*_FEASIBILITY.md
+PLAN.md
+TUI_DEMO.md
+workingsteps.md
+paststeps.md
+featurettes.md
+mvp-architecture.md
+claude workflow/
+Integration*.txt
+setup_testing_env.sh
+BUGS.md
+
+# Website files (separate repo)
+website/
+index*.html
+# Additional BackupPeer test files and development artifacts
+BackupPeer_Testing/
+test-file-transfer-fixed.sh
+test-file-transfer.sh
+test-host-connect-final.sh
+test-host-connect.sh
+test-p2p-deep.sh
+test-peer1.sh
+test-peer2.sh
+test-setup.sh
+run-tests.sh
+cleanup-all.sh
+cleanup-test-files.sh
+debug-file-transfer.sh
+test.txt
+*.log.*
+
+# Patch files and backups
+*.patch
+*.diff
+*.bak
+*.bak2
+cli-patch.diff
+p2p-patch.diff
+
+# Documentation files created during development
+DEBUG_SUMMARY.md
+METHOD_OF_ATTACK.md
+Qwen.md
+TODO.md
+TEST_PLAN.md
+FIX_PLAN.md
+CODE_CHANGES.md
+suggestions.md
+
+# Additional log files
+*.log.*
+logs/

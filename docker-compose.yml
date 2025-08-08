@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  signaling:
+    build: ./broker
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+    volumes:
+      - ./broker:/app
+      - /app/node_modules
+    
+  client-a:
+    build: ./client
+    volumes:
+      - ./client:/app
+      - /app/node_modules
+    environment:
+      - PEER_ID=client-a
+      - SIGNALING_SERVER=ws://signaling:3000
+    depends_on:
+      - signaling
+    
+  client-b:
+    build: ./client  
+    volumes:
+      - ./client:/app
+      - /app/node_modules
+    environment:
+      - PEER_ID=client-b
+      - SIGNALING_SERVER=ws://signaling:3000
+    depends_on:
+      - signaling

@@ -1,0 +1,31 @@
+{
+  "name": "backup-peer-client",
+  "version": "0.3.0",
+  "description": "P2P backup client with W",
+  "main": "lib/cli.js",
+  "bin": {
+    "backup-peer": "./bin/backup-peer"
+  },
+  "scripts": {
+    "start": "node lib/cli.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "crypto": "^1.0.1",
+    "fs-extra": "^11.1.1",
+    "minimatch": "^5.1.2",
+    "node-cron": "^3.0.2",
+    "node-fetch": "^3.3.2",
+    "node-pre-gyp": "^0.17.0",
+    "ora": "^5.4.1",
+    "simple-peer": "^9.11.1",
+    "socket.io-client": "^4.7.2",
+    "sodium-native": "^3.4.1",
+    "sqlite3": "^5.1.4",
+    "uuid": "^9.0.0",
+    "wrtc": "^0.4.7"
+  }
+}

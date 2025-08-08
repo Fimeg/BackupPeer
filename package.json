@@ -1,0 +1,29 @@
+{
+  "name": "backup-peer",
+  "version": "0.1.0",
+  "description": "Privacy-focused P2P backup exchange",
+  "main": "client/lib/cli.js",
+  "bin": {
+    "backup-peer": "./client/bin/backup-peer"
+  },
+  "scripts": {
+    "start": "node client/lib/cli.js",
+    "broker": "node broker/index.js",
+    "test": "echo \"Tests coming in Sprint 2\""
+  },
+  "keywords": ["backup", "p2p", "privacy", "encryption", "webrtc"],
+  "author": "BackupPeer Team",
+  "license": "MIT",
+  "dependencies": {
+    "simple-peer": "^9.11.1",
+    "sodium-native": "^3.4.1", 
+    "commander": "^9.4.1",
+    "chalk": "^5.2.0",
+    "ora": "^6.1.2",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
